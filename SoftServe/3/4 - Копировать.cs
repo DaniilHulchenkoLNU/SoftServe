@@ -19,19 +19,19 @@ public static class IEnumerableExtensions
     }
 }
 
-class Program
-{
-    static void Main()
-    {
-        List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+//class Program
+//{
+//    static void Main()
+//    {
+//        List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
 
-        // Output the original list
-        Console.WriteLine(numbers.ToString());
+//        // Output the original list
+//        Console.WriteLine(numbers.ToString());
 
-        // Increase each number by 5
-        numbers.IncreaseWith(5);
+//        // Increase each number by 5
+//        numbers.IncreaseWith(5);
 
-        // Output the modified list
-        Console.WriteLine(numbers.ToString());
-    }
-}
+//        // Output the modified list
+//        Console.WriteLine(numbers.ToString());
+//    }
+//}
